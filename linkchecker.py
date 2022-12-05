@@ -24,7 +24,7 @@ def process_tags(tags):
     return all_urls
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Scan a website for URLs')
+    parser = argparse.ArgumentParser(description='Scan webpage')
     parser.add_argument('-d', '--domain', help='the domain name to scan')
     args = parser.parse_args()
 
