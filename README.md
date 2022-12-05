@@ -4,5 +4,5 @@ only checks 3rd party dead links and avoids same domain as it will only be vulne
 
 Usage example:
 ```
-python b.py -d https://www.akashsebastian.com
+python linkchecker.py -d https://www.akashsebastian.com
 ```
